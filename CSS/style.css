@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+    color: #df1339;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+/*navbar*/
+#nav{
+    height: 270px;
+}
+#nav ul{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 175px;
+    left: 130px;
+}
+#nav li{
+    list-style: none;
+    padding: 10px 18px;
+    margin: 40px 20px;
+}
+#nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    
+}
+#nav li a:hover{
+    background-color: blue;
+}
+#nav ul::before{
+    position: fixed;
+    content: "";
+    background-color: black;
+    margin-top: 200px;
+    opacity: 0.5;
+    z-index:-1;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height:75px;
+}
+#nav::before{
+    content:"";
+    background: url("../IMG/nav.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity:0.9;
+    width: 100vw;
+    height: 400px;
+    z-index: -1;
+
+}
+/* DS portion */
+#DS{
+    color: yellow;
+    font-size: 25px;
+    display:flex ;
+    justify-content: center;
+    height: 380px;
+}
+#DS::before{
+    content: "";
+    background: url("../DS/DS back.jpeg") ;
+    position:absolute;
+    top: auto;
+    left: 0;
+    opacity:0.7;
+    width: 100vw;
+    height: 370px;
+    z-index: -1;
+}
+#ul1{
+    margin-top:50px;
+    background-color: red;
+    height: 250px;
+}
+#ol1{
+    background-color: #f9fbe7;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+/* DBMS material */
+#DBMS::before{
+    content: "";
+    background: url('../DBMS/DBMS back.png') center ;
+    height: 230px;
+    width: 100vw;
+    position: absolute;
+    top: auto;
+    left: 0;
+    z-index: -1;
+}
+#DBMS{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height: 240px;
+    
+}
+#DBMS ul{
+    margin-top: 30px;
+}
+#DBMS ol{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+/* DF portion */
+#DF::before{
+    content: "";
+    background:url('../DF/DF back.jpeg') center;
+    position: absolute;
+    top: auto;
+    left: 0;
+    z-index: -1;
+    height: 200px;
+    width: 100vw;
+}
+#DF{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    height:210px;
+}
+#DF ul{
+    margin-top: 30px;
+}
+#DF a{
+    color:red;
+}
+#DF ol{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+/* P&S portion */
+#PS{
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+#PS ul{
+    margin-top: 30px;
+}
+#PS::before{
+    content: "";
+    background:url('../P&S/P&S back.jpeg') center;
+    width: 100vw;
+    height: 160px;
+    position:absolute;
+    top: auto;
+    left: 0;
+    z-index:-1;
+}
+/* ETC portion */
+#ETC{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    height: 140px;
+    color: darkgreen;
+}
+#ETC::before{
+    content: "";
+    background: url('../ETC/ETC back.jpeg');
+    width: 100vw;
+    height: 138px;
+    position: absolute;
+    top: auto;
+    left: 0;
+    z-index: -1;
+}
+#ETC ul{
+    margin-top: 40px;
+    background-color: yellow;
+    height: 50px;
+}
+/* IC portion */
+#IC{
+    color:red;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#IC::before{
+    content: "";
+    background: url('../IC/IC\ back.jpeg');
+    position: absolute;
+    top: auto;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 150px;
+}
+#IC ul{
+    margin-top: 40px;
+}
