@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
 
 html{
@@ -86,12 +85,16 @@ h2{
 }
 #ul1{
     margin-top:50px;
-    background-color: red;
+    border: 4px solid rgb(177, 65, 65);
+    border-radius: 7px;
+    background-color: rgba(120, 194, 74,0.7);
     height: 250px;
 }
 #ol1{
-    background-color: #f9fbe7;
+    background-color: #15c1ec;
     display: grid;
+    grid-row-gap: 5px;
+    grid-gap:10px;
     grid-template-columns: repeat(2,auto);
 }
 /* DBMS material */
@@ -174,7 +177,7 @@ h2{
     font-size: 20px;
     justify-content: center;
     height: 140px;
-    color: darkgreen;
+    color: rgb(199, 244, 20);
 }
 #ETC::before{
     content: "";
@@ -188,12 +191,13 @@ h2{
 }
 #ETC ul{
     margin-top: 40px;
-    background-color: yellow;
+    background-color: rgba(65, 17, 238, 0.668);
+    border: 3px solid green;
     height: 50px;
 }
 /* IC portion */
 #IC{
-    color:red;
+    color:rgb(5, 64, 10);
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -210,5 +214,5 @@ h2{
     height: 150px;
 }
 #IC ul{
-    margin-top: 40px;
+    margin-top: 70px;
 }
