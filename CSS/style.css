@@ -94,7 +94,7 @@ h2{
     background-color: #15c1ec;
     display: grid;
     grid-row-gap: 5px;
-    grid-gap:10px;
+    grid-gap: 10px;
     grid-template-columns: repeat(2,auto);
 }
 /* DBMS material */
@@ -170,6 +170,7 @@ h2{
     top: auto;
     left: 0;
     z-index:-1;
+    opacity:0.7;
 }
 /* ETC portion */
 #ETC{
@@ -188,6 +189,7 @@ h2{
     top: auto;
     left: 0;
     z-index: -1;
+    opacity:0.8;
 }
 #ETC ul{
     margin-top: 40px;
@@ -212,6 +214,7 @@ h2{
     z-index: -1;
     width: 100vw;
     height: 150px;
+    opacity:0.7;
 }
 #IC ul{
     margin-top: 70px;
